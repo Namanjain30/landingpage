@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('ing2.webp');
+    background-size: cover;
+    background-position: center;
+    height: 121vh;
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo {
+    color: orange;
+    font-size: 35px;
+    font-family: arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    width: 200px;
+}
+
+.menu {
+    width: 200px;
+    height: 70px;
+    float: left;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+li {
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: azure;
+    font-family: arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: orange;
+}
+
+.search {
+    width: 330px;
+    float: left;
+    margin-left: 434px;
+}
+
+.srch {
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid orange;
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    background-color: orange;
+    border: 2px solid orange;
+    margin-top: 13px;
+    color: wheat;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.btn2 {
+    background-color: orange;
+    border: 2px solid orange;
+    margin-top: 13px;
+    color: wheat;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+    border-radius: 26px;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.srch:focus {
+    outline: none;
+}
+
+.form {
+    width: 268px;
+    height: 355px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%, rgba(0, 0, 0, 0.8)50%);
+    position: absolute;
+    top: 113px;
+    left: 600px;
+}
+
+.form h2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.btn2 a{
+    text-decoration:none ;
+    color: white;
+}
+
+#email{
+    margin-left: 12px;
+    height: 25px;
+    width: 212px;
+    margin-bottom: 23px;
+}
+
+#password{
+    margin-left: 12px;
+    height: 25px;
+    width: 212px;
+    margin-bottom: 23px;
+}
+
+.link{
+    color: white;
+    text-align: center;
+    font-size: 19px;
+    margin-top: 15px;
+}
+
+.a{
+    text-decoration: none;
+    color: sandybrown;
+}
+
+.lo{
+    color: cornflowerblue;
+}
+
+.main1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 11px;
+}
+
+.product{
+    margin-top: 59vh;
+    text-align: center;
+}
+
+.product h1{
+    color: white;
+}
+
+.productcontainer{
+    display: flex;
+    height: 175px;
+    /* width: 351px; */
+    justify-content: space-around;
+}
+
+.product1{
+    border: 2px solid #ffc100;
+    width: 176px;
+    height: 200px;
+    margin-top: 35px;
+}
+
+.imagep{
+    width: 100%;
+    height: 126px;
+}
+
+hr{
+    margin-top: 75px;
+    margin-left: 97px;
+    margin-right: 99px;
+}
+
+.thanks{
+    text-align: center;
+    font-size: 62px;
+    color: aliceblue
+}
